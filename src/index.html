@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width,initial-scale=1
         ,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover'>
     <title>张歆辉的简历</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -15,55 +16,7 @@
     <div class="div1wrapper">
         <div id="div1"></div>
     </div>
-    <style>
-        * {
-            border: 0;
-            margin: 0;
-            box-sizing: border-box;
-
-        }
-
-        #demo {
-            word-break: break-all;
-        }
-
-        #div1 {
-            position: fixed;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 0px;
-        }
-
-        #div1::before {
-            content: '';
-            display: block;
-            /* border: 1px solid red; */
-            position: absolute;
-        }
-
-        #div1::after {
-            content: '';
-            display: block;
-            /* border: 1px solid red; */
-            position: absolute;
-        }
-
-        @media (max-width:500px) {
-            #html {
-                height: 50vh;
-                word-break: break-all;
-                overflow: auto;
-            }
-
-            #div1wrapper {
-                height: 50vh;
-            }
-
-            #div1 {
-                position: relative;
-            }
-        }
-    </style>
+    
     <script src="./index.js"></script>
 </body>
 
